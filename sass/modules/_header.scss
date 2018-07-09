@@ -1,0 +1,101 @@
+header {
+	&.global {
+		text-transform:uppercase;
+		color: $gradientpink1;
+		font-weight: 900;
+		letter-spacing: 0.1em;
+
+		#shoplink {
+			cursor: pointer;
+		}
+
+		.logo {
+			width: 50%;
+			min-width: 132px;
+			max-width: 250px;
+			padding-top:2em;
+			margin: 0 auto;
+			z-index:10;
+			position:relative;
+		}
+
+		a {
+			color: inherit;
+			text-decoration:none;
+			text-shadow: -2px 2px 0 $gradientpink2, 
+			-3px 2px 0 $gradientpink2,
+			-1px -1px 0 $gradientpink2, 
+			1px -1px 0 $gradientpink2,
+			 -1px 1px 0 $gradientpink2, 
+			 1px 1px 0 $gradientpink2;
+			 color: white;
+			 font-weight: 900;
+			// desktop
+			// &:hover {
+   //  			text-shadow: -2px 2px 0 $gradientpink1, 
+   //  			-3px 2px 0 $gradientpink1,
+   //  			-1px -1px 0 $gradientpink1, 
+   //  			1px -1px 0 $gradientpink1,
+   //  			 -1px 1px 0 $gradientpink1, 
+   //  			 1px 1px 0 $gradientpink1;
+   //  			 color: white;
+			// }
+
+			span.outer {
+				position:relative;
+			}
+		}
+
+		padding: 1em 0;
+		text-align:center;
+		span.outer {
+		    padding: 0 0.2em;
+		    font-size: 0.8em;
+		}
+
+		@media screen and (min-width: 960px) {
+			font-size: 1.3em;
+			padding-top:1.3em;
+
+			a span.outer.shop {
+				display: inline;
+			}
+
+			span.outer {
+				padding: 0 2em;
+				font-size: 1em;
+			}
+
+			a {
+				text-shadow: -2px 2px 0 black, 
+				-3px 2px 0 black,
+				-1px -1px 0 black, 
+				1px -1px 0 black,
+				 -1px 1px 0 black, 
+				 1px 1px 0 black;
+				@include transition(0.2s all ease);
+
+				.inner {
+					@include transition(0.3s all ease);
+					@include transform(scale(1));
+					position:relative;
+					display: inline-block;
+				}
+			}
+
+			a:hover {
+				text-shadow: -2px 2px 0 $gradientpink2, 
+				-3px 2px 0 $gradientpink2,
+				-1px -1px 0 $gradientpink2, 
+				1px -1px 0 $gradientpink2,
+				 -1px 1px 0 $gradientpink2, 
+				 1px 1px 0 $gradientpink2;
+
+				.inner {
+					@include transform(scale(1.1));
+				}
+			}
+		}
+
+	}
+}

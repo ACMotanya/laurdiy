@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="718px" height="708px" viewBox="0 0 718 708" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M346.90412,730.498844 C441.48076,730.498844 733.60704,732.736621 730.249272,540.287813 C726.891505,347.839005 513.017181,397.760403 438.123478,325.461237 C367.475865,257.261064 346.90412,-2.37306995 170.621313,25.5991405 C-5.66149431,53.571351 13.9254843,270.076745 13.9254843,364.622331 C13.9254843,416.403262 27.7153513,536.628016 107.942981,620.847779 C174.2011,690.402907 304.125418,730.498844 346.90412,730.498844 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LaurDIY-Desktop" transform="translate(-979.000000, -268.000000)">
+            <g id="Group-5" transform="translate(962.000000, 249.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Oval" fill="#FDDEDE" transform="translate(371.777981, 377.000000) rotate(93.000000) translate(-371.777981, -377.000000) " xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

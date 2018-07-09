@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="387px" height="387px" viewBox="0 0 387 387" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="193.5" cy="193.5" r="193.5"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-10">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Oval-3" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <path d="M196.520677,-81.406015 L472.233612,233.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M184.520677,-61.406015 L460.233612,253.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M167.520677,-45.406015 L443.233612,269.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M141.520677,-40.406015 L417.233612,274.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M124.520677,-22.406015 L400.233612,292.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M106.520677,-5.40601504 L382.233612,309.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M94.5206767,13.593985 L370.233612,328.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M78.5206767,30.593985 L354.233612,345.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M60.5206767,47.593985 L336.233612,362.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M33.5206767,52.593985 L309.233612,367.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M17.5206767,70.593985 L293.233612,385.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M-0.479323308,86.593985 L275.233612,401.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M-15.4793233,104.593985 L260.233612,419.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M-27.4793233,124.593985 L248.233612,439.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M-44.4793233,140.593985 L231.233612,455.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M-70.4793233,145.593985 L205.233612,460.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M-80.4793233,163.593985 L195.233612,478.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M-105.479323,180.593985 L170.233612,495.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M-117.479323,199.593985 L158.233612,514.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M-134.479323,216.593985 L141.233612,531.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M-152.479323,233.593985 L123.233612,548.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M-178.479323,238.593985 L97.2336117,553.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M-194.479323,256.593985 L81.2336117,571.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M-212.479323,272.593985 L63.2336117,587.125709" id="Line-2" stroke="#979797" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,134 @@
+$darkpink: #DBA1A1;
+$pink: #FF3F9C;
+$lightpink: #FDDEDE;
+$gradientpink1: #FF73CB;
+$gradientpink2: #FF3F9C;
+
+body {
+	max-width:1600px;
+	margin: 0 auto;
+	background: white;
+}
+
+html {
+	background: #f7f7f7;
+} 
+
+@mixin transform($x) {
+  -webkit-transform: $x;
+     -moz-transform: $x;
+       -o-transform: $x;
+          transform: $x;
+}
+
+@mixin transition($what) {
+    -webkit-transition: $what;
+    -moz-transition:    $what;
+    -ms-transition:     $what;
+    -o-transition:      $what;
+    transition:         $what;
+}
+
+body,html {
+	font-family: 'Avenir Next', sans-serif;
+	font-size: 16px;
+    color: black;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1.4em;
+	overflow-x: hidden;
+}
+
+img {
+	width: 100%;
+}
+
+.desktop {
+	display: none;
+}
+
+.video-container {
+	background: $pink;
+	> * {
+		display: block;
+		margin:0;
+	}
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: $pink;
+}
+
+::selection {
+    color: white; 
+    background: $pink;
+}
+
+$card-width: 90%;
+$card-max-width: 1200px;
+
+@mixin horizontal-scroller() {
+	margin-left: (100% - $card-width)/2;
+	-webkit-overflow-scrolling: touch;
+
+}
+
+@mixin horizontal-scroller-last-element() {
+	padding-right: (100% - $card-width)/2;
+}
+
+@mixin max-width() {
+	width: $card-width;
+	max-width: $card-max-width;
+	margin: 0 auto;
+}
+
+@mixin bp($value) {
+	@if $value == 'small' {
+	  @media screen and (min-width: 768px) {
+	    @content;
+	  }
+	}
+
+	@if $value == 'medium' {
+	  @media screen and (min-width: 960px) {
+	    @content;
+	  }
+	}
+
+	@if $value == 'large' {
+	  @media screen and (min-width: 1200px) {
+	    @content;
+	  }
+	}
+}
+
+@media screen and (min-width: 960px) {
+	main {
+		max-width: 1400px;
+		width:80%;
+		margin: 0 auto;
+	}
+
+	.vendor-trade-page {
+		main {
+			max-width: none;
+			width: 100%;
+		}
+	}
+}
+
+@media screen and (min-width: 960px) {
+	.desktop {
+		display: block;
+	}
+
+	.mobile {
+		display: none;
+	}
+}
+
+*,div {
+	box-sizing: border-box;
+}

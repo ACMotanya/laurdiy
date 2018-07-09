@@ -1,0 +1,45 @@
+h2 {
+	font-family: 'Avenir Next', sans-serif;
+	font-size: 24px;
+	font-weight: 900;
+	margin-bottom:0.25em;
+	text-shadow: -2px 2px 0 black, 
+		-3px 2px 0 black,
+		-1px -1px 0 black, 
+		1px -1px 0 black,
+		-1px 1px 0 black, 
+		1px 1px 0 black;
+	
+	color: white;
+	text-transform:uppercase;
+	letter-spacing: 0.15em;
+}
+
+h3 {
+	font-family: 'Avenir Next', sans-serif;
+	font-size: 24px;
+	text-transform:uppercase;
+	font-weight: 900;
+	margin-bottom:0.25em;
+	line-height:1.4em;
+
+}
+
+p {
+	font-size: 0.9em;
+	margin-bottom: 1em;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+a {
+	text-transform:uppercase;
+	font-weight: 500;
+	color: inherit;
+	@include transition (color 0.3s ease-in-out);
+	&:hover {
+		color: $pink;
+	}
+}
